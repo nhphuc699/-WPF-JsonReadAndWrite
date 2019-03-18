@@ -30,7 +30,7 @@ namespace _WPF_JsonReadAndWrite
                     Year = 1995
                 }
             };
-            //new line
+            //new linem
             // serialize JSON to a string and then write string to a file
             File.WriteAllText(@"movie.json", JsonConvert.SerializeObject(movies));
 
